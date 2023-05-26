@@ -1,0 +1,119 @@
+OSSimulator.exe -0 3 -s 1 -r 10 -c 4   .\TestData\scheduling_data.txt
+
+Time slices ...
+Queue[0] : 3
+Queue[1] : 2
+Queue[2] : 4
+Queue[3] : 8
+Queue[4] : 16
+Queue[5] : 32
+Queue[6] : 64
+Queue[7] : 128
+Random seed = 1
+IORequest chance = 1 out of 10
+IOCompletion chance = 1 out of 4
+Verbose output = False
+Scheduling policy = NonAggressivePreEmptive
+Input file = .\TestData\scheduling_data.txt
+Starting the Scheduler with these parameters
+1:127:0:false:none:* exited
+4:115:0:false:none:* exited
+5:102:0:false:none:* exited
+14:158:0:false:none:* exited
+31:171:0:false:none:* exited
+33:167:0:false:none:* exited
+48:161:0:false:none:* exited
+52:107:0:false:none:* exited
+83:188:0:false:none:* exited
+87:190:0:false:none:* exited
+92:165:0:false:none:* exited
+94:162:0:false:none:* exited
+112:164:0:false:none:* exited
+120:199:0:false:none:* exited
+123:132:0:false:none:* exited
+149:125:0:false:none:* exited
+158:134:0:false:none:* exited
+163:140:0:false:none:* exited
+165:152:0:false:none:* exited
+182:137:0:false:none:* exited
+183:185:0:false:none:* exited
+184:118:0:false:none:* exited
+186:189:0:false:none:* exited
+188:186:0:false:none:* exited
+200:156:0:false:none:* exited
+216:111:0:false:none:* exited
+233:116:0:false:none:* exited
+237:197:0:false:none:* exited
+243:131:0:false:none:* exited
+245:172:0:false:none:* exited
+269:129:0:false:none:* exited
+271:193:0:false:none:* exited
+282:136:0:false:none:* exited
+301:166:0:false:none:* exited
+323:110:0:false:none:* exited
+328:133:0:false:none:* exited
+331:154:0:false:none:* exited
+340:142:0:false:none:* exited
+354:157:0:false:none:* exited
+368:181:0:false:none:* exited
+376:106:0:false:none:* exited
+384:179:0:false:none:* exited
+389:120:0:false:none:* exited
+414:170:0:false:none:* exited
+417:159:0:false:none:* exited
+424:147:0:false:none:* exited
+425:151:0:false:none:* exited
+430:195:0:false:none:* exited
+450:194:0:false:none:* exited
+463:145:0:false:none:* exited
+467:184:0:false:none:* exited
+475:187:0:false:none:* exited
+490:143:0:false:none:* exited
+495:155:0:false:none:* exited
+499:119:0:false:none:* exited
+505:103:0:false:none:* exited
+516:144:0:false:none:* exited
+517:180:0:false:none:* exited
+520:191:0:false:none:* exited
+527:169:0:false:none:* exited
+533:176:0:false:none:* exited
+534:123:0:false:none:* exited
+539:141:0:false:none:* exited
+540:146:0:false:none:* exited
+548:178:0:false:none:* exited
+551:183:0:false:none:* exited
+552:174:0:false:none:* exited
+559:198:0:false:none:* exited
+569:117:0:false:none:* exited
+570:128:0:false:none:* exited
+573:109:0:false:none:* exited
+577:138:0:false:none:* exited
+578:130:0:false:none:* exited
+582:126:0:false:none:* exited
+587:122:0:false:none:* exited
+598:177:0:false:none:* exited
+599:163:0:false:none:* exited
+616:113:0:false:none:* exited
+618:150:0:false:none:* exited
+630:139:0:false:none:* exited
+634:124:0:false:none:* exited
+639:101:0:false:none:* exited
+644:196:0:false:none:* exited
+645:153:0:false:none:* exited
+652:175:0:false:none:* exited
+663:182:0:false:none:* exited
+678:112:0:false:none:* exited
+692:192:0:false:none:* exited
+699:114:0:false:none:* exited
+715:108:0:false:none:* exited
+724:160:0:false:none:* exited
+733:105:0:false:none:* exited
+737:135:0:false:none:* exited
+741:121:0:false:none:* exited
+743:100:0:false:none:* exited
+744:168:0:false:none:* exited
+749:149:0:false:none:* exited
+753:104:0:false:none:* exited
+758:173:0:false:none:* exited
+759:148:0:false:none:* exited
+All processes completed !

@@ -1,0 +1,780 @@
+OSSimulator.exe -0 3 -s 1 -r 10 -c 4  -v  -S .\TestData\scheduling_data.txt
+
+Time slices ...
+Queue[0] : 3
+Queue[1] : 2
+Queue[2] : 4
+Queue[3] : 8
+Queue[4] : 16
+Queue[5] : 32
+Queue[6] : 64
+Queue[7] : 128
+Random seed = 1
+IORequest chance = 1 out of 10
+IOCompletion chance = 1 out of 4
+Verbose output = True
+Scheduling policy = PreEmptiveShortestJobFirst
+Input file = .\TestData\scheduling_data.txt
+Starting the Scheduler with these parameters
+0:127:1:false:none:preempted
+1:115:2:false:none:preempted
+2:102:0:false:none:* exited
+3:115:1:false:none:preempted
+4:115:0:false:none:* exited
+5:127:0:false:none:* exited
+6:120:10:false:none:still running
+7:120:9:false:none:still running
+8:120:8:false:none:still running
+9:120:7:false:none:still running
+10:120:6:false:none:preempted
+11:158:0:false:none:* exited
+12:163:3:false:none:still running
+13:163:2:false:none:preempted
+14:163:1:false:none:still running
+15:163:0:false:none:* exited
+16:107:2:false:none:preempted
+17:107:1:false:none:preempted
+18:107:0:false:none:* exited
+19:162:8:false:none:still running
+20:162:7:false:none:still running
+21:162:6:false:none:still running
+22:162:5:false:none:preempted
+23:171:4:false:none:still running
+24:171:3:false:none:preempted
+25:167:4:true:167:sleeping
+26:122:1:false:none:preempted
+27:122:0:false:none:* exited
+28:171:2:false:none:still running
+29:171:1:false:none:preempted
+30:171:0:false:none:* exited
+31:167:3:false:none:still running
+32:167:2:false:none:still running
+33:167:1:false:none:preempted
+34:167:0:false:none:* exited
+35:162:4:false:none:still running
+36:162:3:false:none:still running
+37:162:2:false:none:still running
+38:162:1:false:none:preempted
+39:162:0:false:none:* exited
+40:120:5:false:none:still running
+41:120:4:false:none:still running
+42:120:3:false:none:still running
+43:120:2:true:120:sleeping
+44:120:1:false:none:preempted
+45:120:0:false:none:* exited
+46:161:4:false:none:still running
+47:161:3:false:none:preempted
+48:161:2:false:none:still running
+49:161:1:false:none:preempted
+50:161:0:false:none:* exited
+51:170:3:false:none:still running
+52:170:2:false:none:preempted
+53:170:1:false:none:still running
+54:170:0:false:none:* exited
+55:150:6:false:none:still running
+56:150:5:false:none:still running
+57:150:4:false:none:preempted
+58:150:3:false:none:still running
+59:150:2:false:none:still running
+60:150:1:false:none:preempted
+61:150:0:false:none:* exited
+62:134:9:false:none:still running
+63:134:8:false:none:still running
+64:134:7:true:none:sleeping
+65:151:0:false:none:* exited
+66:147:6:false:none:still running
+67:147:5:true:none:sleeping
+68:124:9:false:none:still running
+69:124:8:false:none:still running
+70:124:7:false:134:still running
+71:124:6:false:none:still running
+72:124:5:false:none:preempted
+73:139:5:false:none:still running
+74:139:4:false:none:still running
+75:139:3:false:none:preempted
+76:139:2:false:none:still running
+77:139:1:true:none:sleeping
+78:195:4:false:139,147:still running
+79:195:3:false:none:preempted
+80:139:0:false:none:* exited
+81:101:4:false:none:still running
+82:101:3:false:none:preempted
+83:101:2:true:none:sleeping
+84:195:2:false:none:still running
+85:195:1:false:none:preempted
+86:195:0:false:none:* exited
+87:147:4:false:none:still running
+88:147:3:false:101:still running
+89:147:2:false:none:preempted
+90:101:1:false:none:preempted
+91:101:0:false:none:* exited
+92:132:4:false:none:still running
+93:132:3:false:none:preempted
+94:132:2:false:none:still running
+95:132:1:false:none:preempted
+96:132:0:false:none:* exited
+97:196:4:false:none:still running
+98:196:3:false:none:preempted
+99:196:2:false:none:still running
+100:196:1:false:none:preempted
+101:196:0:false:none:* exited
+102:147:1:false:none:still running
+103:147:0:false:none:* exited
+104:152:6:false:none:still running
+105:152:5:false:none:still running
+106:152:4:false:none:preempted
+107:152:3:false:none:still running
+108:152:2:false:none:still running
+109:152:1:false:none:preempted
+110:152:0:false:none:* exited
+111:164:5:false:none:still running
+112:164:4:true:none:sleeping
+113:185:5:false:none:still running
+114:185:4:false:164:still running
+115:185:3:false:none:preempted
+116:164:3:false:none:still running
+117:164:2:false:none:still running
+118:164:1:false:none:preempted
+119:164:0:false:none:* exited
+120:185:2:false:none:still running
+121:185:1:false:none:still running
+122:185:0:false:none:* exited
+123:145:8:true:145:sleeping
+124:155:8:false:none:still running
+125:155:7:false:none:still running
+126:155:6:false:none:still running
+127:155:5:false:none:preempted
+128:118:0:false:none:* exited
+129:189:3:false:none:still running
+130:189:2:false:none:preempted
+131:189:1:false:none:still running
+132:189:0:false:none:* exited
+133:184:5:false:none:still running
+134:184:4:false:none:still running
+135:184:3:false:none:preempted
+136:184:2:false:none:still running
+137:184:1:false:none:still running
+138:184:0:false:none:* exited
+139:155:4:false:none:still running
+140:155:3:false:none:still running
+141:155:2:false:none:still running
+142:155:1:false:none:preempted
+143:125:0:false:none:* exited
+144:155:0:false:none:* exited
+145:186:7:true:186:sleeping
+146:187:7:false:none:still running
+147:187:6:false:none:still running
+148:187:5:false:none:still running
+149:187:4:false:none:preempted
+150:103:8:false:none:still running
+151:103:7:false:none:still running
+152:103:6:false:none:still running
+153:103:5:false:none:preempted
+154:116:2:false:none:preempted
+155:116:1:false:none:preempted
+156:116:0:false:none:* exited
+157:103:4:false:none:still running
+158:103:3:false:none:still running
+159:103:2:false:none:still running
+160:103:1:false:none:preempted
+161:103:0:false:none:* exited
+162:148:8:false:none:still running
+163:148:7:false:none:still running
+164:148:6:false:none:still running
+165:148:5:false:none:preempted
+166:137:8:false:none:still running
+167:137:7:false:none:still running
+168:137:6:false:none:still running
+169:137:5:false:none:preempted
+170:137:4:false:none:still running
+171:137:3:true:137:sleeping
+172:153:0:false:none:* exited
+173:137:2:false:none:still running
+174:137:1:false:none:preempted
+175:137:0:false:none:* exited
+176:191:6:true:none:sleeping
+177:148:4:false:191:still running
+178:148:3:false:none:still running
+179:148:2:false:none:still running
+180:148:1:false:none:preempted
+181:148:0:false:none:* exited
+182:187:3:false:none:still running
+183:187:2:false:none:still running
+184:187:1:false:none:still running
+185:187:0:false:none:* exited
+186:191:5:false:none:still running
+187:191:4:false:none:still running
+188:191:3:false:none:still running
+189:191:2:false:none:preempted
+190:191:1:true:none:sleeping
+191:194:8:false:none:still running
+192:194:7:false:191:still running
+193:194:6:false:none:still running
+194:194:5:false:none:preempted
+195:191:0:false:none:* exited
+196:197:3:false:none:still running
+197:197:2:false:none:preempted
+198:197:1:false:none:still running
+199:197:0:false:none:* exited
+200:156:0:false:none:* exited
+201:194:4:true:none:sleeping
+202:119:10:false:194:still running
+203:119:9:false:none:still running
+204:119:8:false:none:still running
+205:119:7:false:none:still running
+206:119:6:false:none:preempted
+207:123:6:false:none:still running
+208:123:5:false:none:still running
+209:123:4:false:none:preempted
+210:123:3:false:none:still running
+211:123:2:false:none:still running
+212:123:1:false:none:preempted
+213:123:0:false:none:* exited
+214:175:6:false:none:still running
+215:175:5:false:none:still running
+216:175:4:false:none:preempted
+217:111:0:false:none:* exited
+218:175:3:false:none:still running
+219:175:2:false:none:still running
+220:175:1:false:none:preempted
+221:146:4:true:none:sleeping
+222:175:0:false:none:* exited
+223:194:3:false:none:still running
+224:194:2:false:none:still running
+225:194:1:false:none:preempted
+226:194:0:false:none:* exited
+227:114:8:false:none:still running
+228:114:7:false:none:still running
+229:114:6:false:none:still running
+230:114:5:false:none:preempted
+231:114:4:false:none:still running
+232:114:3:false:146:still running
+233:114:2:false:none:still running
+234:114:1:false:none:preempted
+235:131:2:false:none:preempted
+236:131:1:false:none:preempted
+237:131:0:false:none:* exited
+238:146:3:false:none:still running
+239:146:2:false:none:still running
+240:146:1:false:none:preempted
+241:136:2:false:none:preempted
+242:136:1:false:none:preempted
+243:136:0:false:none:* exited
+244:172:0:false:none:* exited
+245:146:0:false:none:* exited
+246:114:0:false:none:* exited
+247:141:8:true:none:sleeping
+248:108:10:false:none:still running
+249:108:9:false:none:still running
+250:108:8:false:none:still running
+251:108:7:false:none:still running
+252:108:6:false:none:preempted
+253:110:1:false:none:preempted
+254:110:0:false:none:* exited
+255:133:8:false:none:still running
+256:133:7:false:none:still running
+257:133:6:false:none:still running
+258:133:5:false:none:preempted
+259:133:4:false:none:still running
+260:133:3:false:none:still running
+261:133:2:false:141:still running
+262:133:1:false:none:preempted
+263:133:0:false:none:* exited
+264:106:9:true:none:sleeping
+265:108:5:false:none:still running
+266:108:4:false:none:still running
+267:108:3:false:106:still running
+268:108:2:false:none:still running
+269:108:1:false:none:preempted
+270:108:0:false:none:* exited
+271:105:1:false:none:preempted
+272:105:0:false:none:* exited
+273:119:5:true:119:sleeping
+274:119:4:false:none:still running
+275:119:3:false:none:still running
+276:119:2:false:none:preempted
+277:119:1:false:none:still running
+278:119:0:false:none:* exited
+279:124:4:true:none:sleeping
+280:134:6:false:none:still running
+281:134:5:false:none:still running
+282:134:4:false:none:still running
+283:134:3:false:none:still running
+284:134:2:false:none:preempted
+285:134:1:false:124:still running
+286:134:0:false:none:* exited
+287:124:3:false:none:still running
+288:124:2:false:none:still running
+289:124:1:false:none:preempted
+290:124:0:false:none:* exited
+291:135:1:false:none:preempted
+292:135:0:false:none:* exited
+293:140:10:false:none:still running
+294:140:9:false:none:still running
+295:140:8:false:none:still running
+296:140:7:true:none:sleeping
+297:157:6:false:none:still running
+298:157:5:true:none:sleeping
+299:183:6:false:157:still running
+300:183:5:false:none:still running
+301:183:4:false:none:preempted
+302:157:4:false:140:still running
+303:157:3:false:none:still running
+304:157:2:false:none:preempted
+305:174:4:false:none:still running
+306:174:3:false:none:preempted
+307:174:2:false:none:still running
+308:174:1:false:none:preempted
+309:174:0:false:none:* exited
+310:157:1:false:none:still running
+311:157:0:false:none:* exited
+312:183:3:false:none:still running
+313:183:2:false:none:still running
+314:183:1:false:none:preempted
+315:183:0:false:none:* exited
+316:198:6:false:none:still running
+317:198:5:false:none:still running
+318:198:4:false:none:preempted
+319:198:3:false:none:still running
+320:198:2:false:none:still running
+321:198:1:false:none:preempted
+322:198:0:false:none:* exited
+323:140:6:false:none:still running
+324:140:5:true:140:sleeping
+325:140:4:false:none:still running
+326:140:3:false:none:still running
+327:140:2:true:none:sleeping
+328:173:5:false:none:still running
+329:173:4:false:140:still running
+330:173:3:false:none:preempted
+331:140:1:false:none:still running
+332:140:0:false:none:* exited
+333:173:2:true:none:sleeping
+334:138:7:true:173,138:sleeping
+335:173:1:false:none:preempted
+336:173:0:false:none:* exited
+337:142:3:false:none:still running
+338:142:2:false:none:preempted
+339:142:1:false:none:still running
+340:142:0:false:none:* exited
+341:100:0:false:none:* exited
+342:168:0:false:none:* exited
+343:138:6:false:none:still running
+344:138:5:false:none:still running
+345:138:4:false:none:still running
+346:138:3:false:none:still running
+347:138:2:false:none:preempted
+348:138:1:false:none:still running
+349:138:0:false:none:* exited
+350:154:10:false:none:still running
+351:154:9:false:none:still running
+352:154:8:false:none:still running
+353:154:7:false:none:still running
+354:154:6:false:none:preempted
+355:154:5:false:none:still running
+356:154:4:true:154:sleeping
+357:154:3:false:none:still running
+358:154:2:false:none:still running
+359:154:1:false:none:preempted
+360:154:0:false:none:* exited
+361:166:10:false:none:still running
+362:166:9:false:none:still running
+363:166:8:true:none:sleeping
+364:169:10:false:none:still running
+365:169:9:false:none:still running
+366:169:8:false:none:still running
+367:169:7:false:166:still running
+368:169:6:false:none:preempted
+369:169:5:false:none:still running
+370:169:4:false:none:still running
+371:169:3:false:none:still running
+372:169:2:false:none:still running
+373:169:1:false:none:preempted
+374:169:0:false:none:* exited
+375:177:10:false:none:still running
+376:177:9:false:none:still running
+377:177:8:false:none:still running
+378:177:7:false:none:still running
+379:177:6:false:none:preempted
+380:177:5:false:none:still running
+381:177:4:false:none:still running
+382:177:3:false:none:still running
+383:177:2:false:none:still running
+384:177:1:false:none:preempted
+385:177:0:false:none:* exited
+386:179:9:false:none:still running
+387:179:8:false:none:still running
+388:179:7:false:none:still running
+389:179:6:false:none:still running
+390:179:5:false:none:preempted
+391:179:4:false:none:still running
+392:179:3:false:none:still running
+393:179:2:false:none:still running
+394:179:1:false:none:still running
+395:179:0:false:none:* exited
+396:182:10:false:none:still running
+397:182:9:false:none:still running
+398:182:8:false:none:still running
+399:182:7:true:182:sleeping
+400:182:6:false:none:still running
+401:182:5:false:none:still running
+402:182:4:false:none:still running
+403:182:3:false:none:still running
+404:182:2:false:none:preempted
+405:182:1:false:none:still running
+406:182:0:false:none:* exited
+407:186:6:false:none:still running
+408:186:5:false:none:still running
+409:186:4:false:none:still running
+410:186:3:false:none:still running
+411:186:2:false:none:preempted
+412:186:1:false:none:still running
+413:186:0:false:none:* exited
+414:188:9:false:none:still running
+415:188:8:false:none:still running
+416:188:7:true:188:sleeping
+417:188:6:false:none:still running
+418:188:5:false:none:still running
+419:188:4:false:none:still running
+420:188:3:false:none:still running
+421:188:2:false:none:preempted
+422:188:1:false:none:still running
+423:188:0:false:none:* exited
+424:190:9:false:none:still running
+425:190:8:false:none:still running
+426:190:7:false:none:still running
+427:190:6:true:190:sleeping
+428:190:5:false:none:still running
+429:190:4:false:none:still running
+430:190:3:false:none:still running
+431:190:2:false:none:preempted
+432:190:1:false:none:still running
+433:190:0:false:none:* exited
+434:199:9:false:none:still running
+435:199:8:false:none:still running
+436:199:7:false:none:still running
+437:199:6:false:none:still running
+438:199:5:false:none:preempted
+439:199:4:false:none:still running
+440:199:3:false:none:still running
+441:199:2:false:none:still running
+442:199:1:false:none:still running
+443:199:0:false:none:* exited
+444:104:11:false:none:still running
+445:104:10:false:none:still running
+446:104:9:false:none:still running
+447:104:8:false:none:still running
+448:104:7:false:none:still running
+449:104:6:false:none:preempted
+450:104:5:false:none:still running
+451:104:4:false:none:still running
+452:104:3:true:104:sleeping
+453:104:2:false:none:still running
+454:104:1:false:none:preempted
+455:104:0:false:none:* exited
+456:106:8:false:none:still running
+457:106:7:false:none:still running
+458:106:6:false:none:still running
+459:106:5:false:none:still running
+460:106:4:false:none:still running
+461:106:3:false:none:preempted
+462:106:2:false:none:still running
+463:106:1:false:none:still running
+464:106:0:false:none:* exited
+465:109:11:true:none:sleeping
+466:113:11:false:none:still running
+467:113:10:false:none:still running
+468:113:9:true:113:sleeping
+469:113:8:false:none:still running
+470:113:7:false:none:still running
+471:113:6:false:none:still running
+472:113:5:false:109:still running
+473:113:4:false:none:still running
+474:113:3:false:none:preempted
+475:113:2:false:none:still running
+476:113:1:false:none:still running
+477:113:0:false:none:* exited
+478:117:11:false:none:still running
+479:117:10:false:none:still running
+480:117:9:false:none:still running
+481:117:8:false:none:still running
+482:117:7:false:none:still running
+483:117:6:false:none:preempted
+484:117:5:false:none:still running
+485:117:4:false:none:still running
+486:117:3:false:none:still running
+487:117:2:false:none:still running
+488:117:1:false:none:still running
+489:117:0:false:none:* exited
+490:121:12:true:none:sleeping
+491:128:12:false:121:still running
+492:128:11:false:none:still running
+493:128:10:false:none:still running
+494:128:9:false:none:still running
+495:128:8:false:none:still running
+496:128:7:false:none:preempted
+497:128:6:false:none:still running
+498:128:5:false:none:still running
+499:128:4:false:none:still running
+500:128:3:false:none:still running
+501:128:2:false:none:still running
+502:128:1:false:none:preempted
+503:128:0:false:none:* exited
+504:129:12:false:none:still running
+505:129:11:false:none:still running
+506:129:10:false:none:still running
+507:129:9:false:none:still running
+508:129:8:false:none:still running
+509:129:7:false:none:preempted
+510:129:6:false:none:still running
+511:129:5:false:none:still running
+512:129:4:false:none:still running
+513:129:3:false:none:still running
+514:129:2:false:none:still running
+515:129:1:false:none:preempted
+516:129:0:false:none:* exited
+517:141:7:false:none:still running
+518:141:6:false:none:still running
+519:141:5:false:none:still running
+520:141:4:false:none:still running
+521:141:3:false:none:still running
+522:141:2:false:none:preempted
+523:141:1:false:none:still running
+524:141:0:false:none:* exited
+525:143:12:false:none:still running
+526:143:11:false:none:still running
+527:143:10:false:none:still running
+528:143:9:true:none:sleeping
+529:144:12:false:none:still running
+530:144:11:false:none:still running
+531:144:10:false:none:still running
+532:144:9:true:none:sleeping
+533:145:7:false:143,144:still running
+534:145:6:false:none:still running
+535:145:5:false:none:still running
+536:145:4:false:none:still running
+537:145:3:false:none:still running
+538:145:2:false:none:preempted
+539:143:8:false:none:still running
+540:143:7:false:none:still running
+541:143:6:false:none:still running
+542:143:5:false:none:still running
+543:143:4:false:none:still running
+544:143:3:false:none:preempted
+545:143:2:false:none:still running
+546:143:1:false:none:still running
+547:143:0:false:none:* exited
+548:144:8:false:none:still running
+549:144:7:false:none:still running
+550:144:6:false:none:still running
+551:144:5:false:none:still running
+552:144:4:false:none:still running
+553:144:3:false:none:preempted
+554:144:2:false:none:still running
+555:144:1:false:none:still running
+556:144:0:false:none:* exited
+557:145:1:false:none:still running
+558:145:0:false:none:* exited
+559:149:12:false:none:still running
+560:149:11:false:none:still running
+561:149:10:false:none:still running
+562:149:9:false:none:still running
+563:149:8:false:none:still running
+564:149:7:false:none:preempted
+565:149:6:false:none:still running
+566:149:5:false:none:still running
+567:149:4:false:none:still running
+568:149:3:false:none:still running
+569:149:2:false:none:still running
+570:149:1:false:none:preempted
+571:149:0:false:none:* exited
+572:165:11:false:none:still running
+573:165:10:false:none:still running
+574:165:9:false:none:still running
+575:165:8:false:none:still running
+576:165:7:false:none:still running
+577:165:6:false:none:preempted
+578:165:5:false:none:still running
+579:165:4:false:none:still running
+580:165:3:false:none:still running
+581:165:2:false:none:still running
+582:165:1:true:none:sleeping
+583:166:7:false:none:still running
+584:166:6:false:none:still running
+585:166:5:false:none:still running
+586:166:4:false:none:still running
+587:166:3:true:166:sleeping
+588:166:2:false:165:still running
+589:166:1:false:none:still running
+590:166:0:false:none:* exited
+591:165:0:false:none:* exited
+592:176:11:false:none:still running
+593:176:10:false:none:still running
+594:176:9:false:none:still running
+595:176:8:false:none:still running
+596:176:7:false:none:still running
+597:176:6:false:none:preempted
+598:176:5:false:none:still running
+599:176:4:false:none:still running
+600:176:3:false:none:still running
+601:176:2:false:none:still running
+602:176:1:false:none:still running
+603:176:0:false:none:* exited
+604:178:11:false:none:still running
+605:178:10:true:none:sleeping
+606:180:11:false:none:still running
+607:180:10:false:none:still running
+608:180:9:false:none:still running
+609:180:8:false:none:still running
+610:180:7:false:178:still running
+611:180:6:false:none:preempted
+612:180:5:false:none:still running
+613:180:4:false:none:still running
+614:180:3:false:none:still running
+615:180:2:false:none:still running
+616:180:1:false:none:still running
+617:180:0:false:none:* exited
+618:181:12:false:none:still running
+619:181:11:false:none:still running
+620:181:10:false:none:still running
+621:181:9:false:none:still running
+622:181:8:false:none:still running
+623:181:7:false:none:preempted
+624:181:6:true:none:sleeping
+625:192:11:false:none:still running
+626:192:10:false:none:still running
+627:192:9:false:none:still running
+628:192:8:false:none:still running
+629:192:7:false:181:still running
+630:192:6:false:none:preempted
+631:181:5:false:none:still running
+632:181:4:false:none:still running
+633:181:3:false:none:still running
+634:181:2:false:none:preempted
+635:181:1:false:none:still running
+636:181:0:false:none:* exited
+637:192:5:false:none:still running
+638:192:4:false:none:still running
+639:192:3:false:none:still running
+640:192:2:false:none:still running
+641:192:1:false:none:still running
+642:192:0:false:none:* exited
+643:193:11:false:none:still running
+644:193:10:false:none:still running
+645:193:9:false:none:still running
+646:193:8:true:none:sleeping
+647:112:14:false:none:still running
+648:112:13:false:none:still running
+649:112:12:false:193:still running
+650:112:11:false:none:still running
+651:112:10:false:none:still running
+652:112:9:false:none:still running
+653:112:8:false:none:preempted
+654:193:7:false:none:still running
+655:193:6:false:none:still running
+656:193:5:false:none:still running
+657:193:4:false:none:still running
+658:193:3:true:193:sleeping
+659:193:2:false:none:still running
+660:193:1:false:none:still running
+661:193:0:false:none:* exited
+662:112:7:false:none:still running
+663:112:6:false:none:still running
+664:112:5:false:none:still running
+665:112:4:false:none:still running
+666:112:3:true:112:sleeping
+667:112:2:false:none:still running
+668:112:1:false:none:preempted
+669:112:0:false:none:* exited
+670:126:14:false:none:still running
+671:126:13:false:none:still running
+672:126:12:false:none:still running
+673:126:11:false:none:still running
+674:126:10:true:126:sleeping
+675:126:9:false:none:still running
+676:126:8:false:none:still running
+677:126:7:false:none:still running
+678:126:6:false:none:still running
+679:126:5:false:none:still running
+680:126:4:false:none:still running
+681:126:3:false:none:preempted
+682:126:2:false:none:still running
+683:126:1:false:none:still running
+684:126:0:false:none:* exited
+685:130:13:false:none:still running
+686:130:12:false:none:still running
+687:130:11:false:none:still running
+688:130:10:false:none:still running
+689:130:9:false:none:still running
+690:130:8:false:none:still running
+691:130:7:false:none:preempted
+692:130:6:false:none:still running
+693:130:5:false:none:still running
+694:130:4:false:none:still running
+695:130:3:false:none:still running
+696:130:2:false:none:still running
+697:130:1:true:none:sleeping
+698:159:13:false:none:still running
+699:159:12:false:130:still running
+700:159:11:false:none:still running
+701:159:10:false:none:still running
+702:159:9:false:none:still running
+703:159:8:false:none:still running
+704:159:7:false:none:preempted
+705:130:0:false:none:* exited
+706:159:6:false:none:still running
+707:159:5:false:none:still running
+708:159:4:false:none:still running
+709:159:3:false:none:still running
+710:159:2:false:none:still running
+711:159:1:false:none:still running
+712:159:0:false:none:* exited
+713:160:13:false:none:still running
+714:160:12:false:none:still running
+715:160:11:false:none:still running
+716:160:10:false:none:still running
+717:160:9:false:none:still running
+718:160:8:false:none:still running
+719:160:7:false:none:preempted
+720:160:6:true:none:sleeping
+721:178:9:false:none:still running
+722:178:8:false:none:still running
+723:178:7:true:160:sleeping
+724:160:5:false:none:still running
+725:160:4:false:178:still running
+726:160:3:false:none:still running
+727:160:2:false:none:preempted
+728:160:1:true:none:sleeping
+729:178:6:false:none:still running
+730:178:5:false:160:still running
+731:178:4:false:none:still running
+732:178:3:false:none:still running
+733:178:2:false:none:still running
+734:178:1:false:none:still running
+735:178:0:false:none:* exited
+736:160:0:false:none:* exited
+737:109:10:false:none:still running
+738:109:9:false:none:still running
+739:109:8:false:none:still running
+740:109:7:false:none:still running
+741:109:6:false:none:still running
+742:109:5:false:none:still running
+743:109:4:false:none:still running
+744:109:3:false:none:preempted
+745:109:2:false:none:still running
+746:109:1:true:none:sleeping
+747:121:11:false:109:still running
+748:121:10:false:none:still running
+749:121:9:true:none:sleeping
+750:109:0:false:none:* exited
+751:*:x:false:none:idling
+752:121:8:false:none:still running
+753:121:7:false:none:still running
+754:121:6:true:none:sleeping
+755:121:5:false:none:still running
+756:121:4:false:none:still running
+757:121:3:false:none:still running
+758:121:2:false:none:still running
+759:121:1:false:121:still running
+760:121:0:false:none:* exited
+All processes completed !
